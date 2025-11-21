@@ -7,7 +7,7 @@
         <button @click="showAddProduct = true" class="add-btn">+ Add Product</button>
       </div>
   
-      <!-- Loader كامل الصفحة -->
+      <!-- Loader -->
       <div v-if="loadingAll" class="loading">
         <div class="spinner"></div>
         Loading products...
